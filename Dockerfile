@@ -7,5 +7,5 @@ RUN apt-get install -y nodejs
 RUN npm i -g npm
 COPY . /asad/
 WORKDIR /asad/
-RUN pip3 install -U -r Legendasad
+RUN pip3 install -U -r requirements.txt
 CMD python3 -m rocks
