@@ -41,23 +41,23 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/4c7025b0b94c0d2b5f94a.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴀʟᴇxᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
+💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴛᴅɴ ᴍᴜsɪᴄ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [Asᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)
-┣★ ᴜᴘᴅᴀᴛᴇs : [Aʟᴇxᴀ Sᴇʀᴠᴇʀ](https://t.me/AsadSupport)
-┣★ sᴜᴘᴘᴏʀᴛ : [Aʟᴇxᴀ Cʜᴀᴛ](https://t.me/Shayri_Music_Lovers)
-┣★ ᴏᴡɴᴇʀ › : [Mʏ ʙʀᴏ](https://t.me/HarshitSharma361)
+┣★ ᴄʀᴇᴀᴛᴏʀ : [ᴀᴀᴅɪᴛʏᴀ](https://t.me/Itzaadityaxd)
+┣★ ᴄʜᴀᴛᴛɪɴɢ : [ғᴍᴄ](https://t.me/FRIENDS_MASTI_CLUB_FMC)
+┣★ sᴜᴘᴘᴏʀᴛ : [ᴛᴅɴ](https://t.me/TDN_CHAT)
+┣★ ᴏᴡɴᴇʀ › : [ᴀᴀᴅɪᴛʏᴀ](https://t.me/saikostar_xd)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/Dr_Asad_Ali) ...
+ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/saikostar_xd) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴀᴅᴅ ᴀʟᴇxᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕",
+                        "➕ ❰ ᴀᴅᴅ ᴛᴅɴ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕",
                         url=f"https://t.me/Asad_Music_Bot?startgroup=true",
                     )
                 ]
@@ -67,7 +67,7 @@ async def start_(client: Client, message: Message):
 
 
 @Client.on_message(
-    commandpro(["/start", "/alive", "Alexa"]) & filters.group & ~filters.edited
+    commandpro(["/start", "/alive", "ᴛᴅɴ"]) & filters.group & ~filters.edited
 )
 async def start(client: Client, message: Message):
     await message.reply_photo(
@@ -78,7 +78,7 @@ async def start(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞",
-                        url=f"https://t.me/Shayri_Music_Lovers",
+                        url=f"https://t.me/FRIENDS_MASTI_CLUB_FMC",
                     )
                 ]
             ]
@@ -93,13 +93,13 @@ async def start(client: Client, message: Message):
 )
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/b92ed11ca9259ec96aaee.jpg",
+        photo=f"https://te.legra.ph/file/64191119f900180fab849.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://t.me/Dr_Asad_Ali"
+                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://t.me/saikostar_xd"
                     )
                 ]
             ]
